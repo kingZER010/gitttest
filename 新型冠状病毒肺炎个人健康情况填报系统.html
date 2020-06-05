@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://jktb.haedu.gov.cn/?act=health -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>新型冠状病毒肺炎个人健康情况填报系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="./新型冠状病毒肺炎个人健康情况填报系统_files/vant.min.css">
+    <link rel="icon" href="http://jktb.haedu.gov.cn/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://jktb.haedu.gov.cn/favicon.ico" type="image/x-icon">
+
+    <style>
+        body {background-color: #FFF; padding-bottom: 60px; }
+        .submit-wrap {background-color: #fff; padding: 20px;
+        }
+        .channel-top{width: 100%; margin: 0 auto ;}
+        .channel-top img{ width:100%; }
+        #app{margin:0 auto;}
+
+    </style>
+    <script type="text/javascript">
+      window._setw = {
+        "set":true ,
+        "css" : "div, span {font-size:9px !important }.channel-top ,#app{width: 300px;}.submit-wrap{padding:0;}.van-button{height:25px;line-height:25px;}.van-cell-group__title{padding:8px 16px 8px;}"
+      } ;
+    </script> 
+</head>
+<body>
+        <a href="http://jktb.haedu.gov.cn/?act=login" target="_self" style="position:absolute;margin-top:3px;color:red;top:0;right:0;left:0;text-align:center;font-size:12px;text-decoration:none;cursor:pointer;">姓名：王源 所在学校：商丘学院 院系:计算机工程学院</a>    <div class="channel-top"><img src="./新型冠状病毒肺炎个人健康情况填报系统_files/list.jpg"></div>
+    <p class="alert alert-info" style="border: none; background: none; color: black; font-weight: bold; text-align: center;border-radius: unset;">每日健康填报</p>
+    <div id="app"><div class="report-box"><div class="van-cell-group van-hairline--top-bottom"><div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>上报时间</span></div><div class="van-cell__value"><span>2020-06-05</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>上报地点</span></div><div class="van-cell__value"><span>河南省-安阳市-汤阴县</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>所在小区（村）是否有确诊病例</span></div><div class="van-cell__value"><span>否</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div style="display: none;"><div class="van-cell van-cell--required van-field"><div class="van-cell__title van-field__label"><span>详细地址</span></div><div class="van-cell__value"><div class="van-field__body"><textarea rows="3" placeholder="例:  XX市区XX路（街道）XX小区" class="van-field__control van-field__control--right" style="height: auto;"></textarea></div></div></div></div> <div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>共同居住人是否有确诊病例</span></div><div class="van-cell__value"><span>否</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div style="display: none;"><div class="van-cell van-cell--required van-field"><div class="van-cell__title van-field__label"><span>详细地址</span></div><div class="van-cell__value"><div class="van-field__body"><textarea rows="3" placeholder="例:  XX市区XX路（街道）XX小区" class="van-field__control van-field__control--right" style="height: auto;"></textarea></div></div></div></div> <div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>是否去过湖北疫区（1月10日后）</span></div><div class="van-cell__value"><span>否</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div style="display: none;"><div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>去过哪里</span></div><div class="van-cell__value"><span>请选择</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>前往时间</span></div><div class="van-cell__value"><span>请选择前往时间</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div></div> <div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>与疫区人员是否有接触（1月10日后）</span></div><div class="van-cell__value"><span>否</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div style="display: none;"><div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>接触地点</span></div><div class="van-cell__value"><span>请选择接触地点</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div class="van-cell van-cell--required van-field"><div class="van-cell__title van-field__label"><span>接触地址</span></div><div class="van-cell__value"><div class="van-field__body"><textarea rows="3" placeholder="接触详细地址，例：XXX小区XX号XX室" class="van-field__control van-field__control--right" style="height: auto;"></textarea></div></div></div> <div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>接触时间</span></div><div class="van-cell__value"><span>请选择接触时间</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div></div> <div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>是否留置观察</span></div><div class="van-cell__value"><span>否</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>是否曾经确诊</span></div><div class="van-cell__value"><span>否</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div style="display: none;"><div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>确诊时间</span></div><div class="van-cell__value"><span>请选择接触时间</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div class="van-cell van-cell--required van-field"><div class="van-cell__title van-field__label"><span>治疗医院</span></div><div class="van-cell__value"><div class="van-field__body"><input type="text" placeholder="请输入治疗医院" class="van-field__control van-field__control--right"></div></div></div> <div role="button" tabindex="0" class="van-cell van-cell--clickable"><div class="van-cell__title"><span>治愈时间</span></div><div class="van-cell__value"><span>请选择治愈时间</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div></div> <div role="button" tabindex="0" class="van-cell van-cell--clickable van-cell--required"><div class="van-cell__title"><span>健康状况是否良好</span></div><div class="van-cell__value"><span>是</span></div><i class="van-icon van-icon-arrow van-cell__right-icon"><!----></i></div> <div style="display: none;"><div class="van-cell van-cell--required van-field"><div class="van-cell__title van-field__label"><span>什么状况</span></div><div class="van-cell__value"><div class="van-field__body"><textarea rows="3" placeholder="如有发热、咳嗽等症状，请详细描述发热温度、就诊情况、就诊医院等" class="van-field__control van-field__control--right" style="height: auto;"></textarea></div></div></div></div> <div class="submit-wrap"><button class="van-button van-button--primary van-button--normal van-button--block"><span class="van-button__text">提交</span></button></div></div></div> <div class="dialog-box"><!----> <!----> <!----> <!----> <!----> <!----> <!----></div></div>
+
+
+<script src="./新型冠状病毒肺炎个人健康情况填报系统_files/vue.min.js.下载"></script>
+<script type="text/javascript" src="./新型冠状病毒肺炎个人健康情况填报系统_files/jquery.min.js.下载"></script>
+<script src="./新型冠状病毒肺炎个人健康情况填报系统_files/jquery.cookie.min.js.下载"></script>
+<script src="./新型冠状病毒肺炎个人健康情况填报系统_files/vant.min.js.下载"></script>
+<script src="./新型冠状病毒肺炎个人健康情况填报系统_files/dayjs.min.js.下载"></script>
+<script src="./新型冠状病毒肺炎个人健康情况填报系统_files/area.js.下载"></script>
+<script src="./新型冠状病毒肺炎个人健康情况填报系统_files/hubei.js.下载"></script>
+
+<script>
+    window.healAjax = parseInt($.cookie('healAjax'));
+    window.rs = {
+
+        regYmd :dayjs().format('YYYY-MM-DD') , //上报时间
+
+        //假如regPos =  河南省-郑州市-金水区 ，根据值，将对应的key 分别赋值给以下
+        regProvince : 0, //上报地点省份
+        regCity : 0, //上报地点城市
+        regArea : 0, //上报地点区(县)
+
+        isCunDiag:0,
+        isToge:0,
+        // cunProvince:0,
+        // cunCity:0,
+        // cunArea:0,
+        cunAddr:"",
+        togeAddr:"",
+
+        isGoHb : 0 ,//是否去过湖北疫区
+
+        //假如goWhere = 湖北省-黄冈市 ,根据值，将对应的key 分别赋值给以下
+        goCity : 0 ,  //去过哪里-某市 省份限定了湖北省不需要提交了
+
+        goYmd : "",//前往时间
+
+        isTouch : 0 ,//与疫区人员是否有接触
+
+        //touchWhere = 河南省-郑州市-金水区 ，根据值，将对应的key 分别赋值给以下
+        touchProvince : 0, //接触地点省份
+        touchCity : 0, //接触地点城市
+        touchArea : 0, //接触地点区(县)
+
+        touchAddr : "", //接触地址
+
+        touchYmd : '' ,//接触时间
+
+        isObs : 0,//是否留置观察
+
+        isDiag : 0,//是否曾经确诊
+
+        diagYmd : "" ,//确诊时间
+
+        diagHospital : "" ,//治疗医院
+
+        CureYmd : "" ,//治愈时间
+
+        isGood : 1,//健康状况是否良好
+
+        whatSitua : "",//什么状况
+    }; 
+
+    var v = new Vue({
+      el: '#app',
+      data(){
+        return {
+            postData: {
+                defaultArea: (rs.regArea || rs.touchCity) || 490102
+            },
+            dialogStatus: {
+                dayDialoig: false, // 日期框
+
+                changeType: '',
+
+                addressSelectDialog: false,
+                addressChangeType: '',
+ 
+                cardTypeDialog: false,
+
+                crossSelectType: '',
+                crossSelectDialogType: '',
+
+                makeSureDialog: false,
+                leaveCarTypeDialog: false,
+                parkingTypeDialog: false,
+                minDate: new Date(2019, 11, 1),
+                defaultDate: new Date(),
+                goWhereDialog: false
+            },
+            mainForm: {
+                regYmd: rs.regYmd, //上报时间
+                reportAddress: getNameFromCode(rs.regProvince,rs.regCity,rs.regArea), //上报地点
+                isCunDiag:getMakeSureValue(rs.isCunDiag),
+                isToge:getMakeSureValue(rs.isToge),
+                // cunWhere:getNameFromCode(rs.cunProvince,rs.cunCity,rs.cunArea),
+                cunAddr:rs.cunAddr,
+                togeAddr:rs.togeAddr,
+
+                goWhere: getNameFromCode(420000, rs.goCity, 0), //去过哪里
+                goYmd: rs.goYmd, // 前往时间
+                isGoHb: getMakeSureValue(rs.isGoHb),
+                isTouch: getMakeSureValue(rs.isTouch),
+                touchWhere: getNameFromCode(rs.touchProvince, rs.touchCity, rs.touchArea), //
+                touchAddr: rs.touchAddr,
+                touchYmd: rs.touchYmd,
+                isObs: getMakeSureValue(rs.isObs),
+                isDiag: getMakeSureValue(rs.isDiag),
+                diagYmd: rs.diagYmd,
+                diagHospital: rs.diagHospital,
+                CureYmd: rs.CureYmd,
+                isGood: getMakeSureValue(rs.isGood),
+                whatSitua: rs.whatSitua
+            },
+            
+            message: {
+                regYmd: '请选择上报时间',
+                reportAddress: '请选择上报地点',
+            },
+
+            subMessage: [
+                {
+                    key: 'isCunDiag',
+                    children: ['cunAddr'],
+                    msg: {
+                        // touchWhere: '请选择接触地点',
+                        cunAddr: '请输入详细地址'
+                    }
+                },
+                {
+                    key: 'isToge',
+                    children: ['togeAddr'],
+                    msg: {
+                        togeAddr: '请输入详细地址'
+                    }
+                },                          
+                {
+                    key: 'isGoHb',
+                    children: ['goWhere', 'goYmd'],
+                    msg: {
+                        goWhere: '请选择去过哪里',
+                        goYmd: '请选择前往时间'
+                    }
+                },
+                {
+                    key: 'isTouch',
+                    children: ['touchWhere', 'touchAddr', 'touchYmd'],
+                    msg: {
+                        touchWhere: '请选择接触地点',
+                        touchAddr: '请输入接触详细地址',
+                        touchYmd: '请选择接触时间'
+                    }
+                },
+                {
+                    key: 'isDiag',
+                    children: ['diagYmd', 'diagHospital'],
+                    msg: {
+                        diagYmd: '请选择确诊时间',
+                        diagHospital: '请输入治疗医院'
+                    }
+                }
+            ],
+
+            areaList: _vant_area,
+            hubeiList: _vant_hubei,
+
+            saveData: {
+
+                cardType: [
+                    {
+                        name: '身份证'
+                    },
+                    {
+                        name: '护照'
+                    },
+                    {
+                        name: '港澳台'
+                    }
+                ],
+
+                makeSure: [
+                    {
+                        name: '是',
+                        code: 1
+                    },
+                    {
+                        name: '否',
+                        code: 0
+                    }
+                ],
+
+
+                leaveCarType: [
+                    {
+                        name: '自驾'
+                    },
+                    {
+                        name: '火车/高铁'
+                    },
+                    {
+                        name: '飞机'
+                    },
+                    {
+                        name: '其他'
+                    }
+                ],
+                
+
+                parkingType: [
+                    {
+                        name: '服务区'
+                    },
+                    {
+                        name: '其他'
+                    }
+                ]
+            }
+        }
+      },
+      methods: {
+        onDayConfirm(select){
+            var formate = dayjs(select).format('YYYY-MM-DD')
+            this.dialogStatus.dayDialoig = false
+            if(this.dialogStatus.changeType) {
+                try {
+                    this.mainForm[ this.dialogStatus.changeType ] = formate
+                } catch(e) {
+                    // 
+                }
+            }
+
+
+        },
+        changeData(changeType){
+            this.dialogStatus.changeType = changeType
+            this.dialogStatus.dayDialoig = true
+        },
+
+        changeAddress(changeType){
+            this.dialogStatus.addressChangeType = changeType
+            this.dialogStatus.addressSelectDialog = true
+        },
+        onAddressConfirm(select){
+            var selected = (select[0] && select[0].name) + '-' + (select[1] && select[1].name) + '-' + (select[2] && select[2].name)
+            if(this.dialogStatus.addressChangeType) {
+                try {
+                    this.mainForm[ this.dialogStatus.addressChangeType ] = selected
+                } catch(e) {
+                    // 
+                }
+            }
+            this.dialogStatus.addressSelectDialog = false
+
+            if(this.dialogStatus.addressChangeType === 'reportAddress') {
+                rs.regProvince = select[0].code
+                rs.regCity = select[1].code
+                rs.regArea = select[2].code
+            } else if(this.dialogStatus.addressChangeType === 'touchWhere') {
+                rs.touchProvince = select[0].code
+                rs.touchCity = select[1].code
+                rs.touchArea = select[2].code
+            }else if(this.dialogStatus.addressChangeType === 'cunWhere') {
+                rs.cunProvince = select[0].code
+                rs.cunCity = select[1].code
+                rs.cunArea = select[2].code
+            }
+
+        },
+        closeAddressDialog(){
+            this.dialogStatus.addressSelectDialog = false
+        },
+
+        crossOpenSelectDialog(type, dialogName){
+            this.dialogStatus.crossSelectType = type
+            this.dialogStatus.crossSelectDialogType = dialogName
+            this.dialogStatus[ dialogName ] = true
+        },
+
+        crossSelected(select){
+            this.mainForm[ this.dialogStatus.crossSelectType ] = select.name
+            this.dialogStatus[ this.dialogStatus.crossSelectDialogType ] = false
+        },
+
+            closeGoWhereDialog(){
+                this.dialogStatus.goWhereDialog = false
+            },
+            onGoWhereDialogConfrim(select){
+                if(select[0].code != 420000) {
+                this.$toast('必须选择湖北地区下的区域');
+                } else {
+                    rs.goCity = select[1].code
+                    this.mainForm.goWhere = select[1].name
+                    this.closeGoWhereDialog()
+                }
+            },
+            openGoWhereDialog(){
+                this.dialogStatus.goWhereDialog = true
+            },
+
+        goSubmit(){
+            for(var i in this.message) {
+
+                if(this.mainForm[i] === '') {
+
+                    this.$toast(this.message[i]);
+                    return
+                }
+
+            }
+
+            var root = this
+
+            // 整理表单
+            var checkArr = [
+                "isGoHb",
+                    "isCunDiag",
+                    "isToge",
+                    "isTouch",
+                    "cunWhere",
+                    "touchWhere",
+                    "isObs",
+                    "isDiag",
+                    "isGood",
+            ]
+            checkArr.forEach(function(key){
+                rs[key] = getMakeSureValueReverse(root.mainForm[key])
+            })
+            
+            var setValues = [
+                    "regYmd",
+                    "goYmd",
+                    "touchYmd",
+                    "diagYmd",
+                    "CureYmd",
+
+                    "cunAddr",
+                    "togeAddr",
+                    "touchAddr",
+                    "diagHospital",
+                    "whatSitua"
+            ]
+
+            setValues.forEach(function(key){
+                rs[key] = root.mainForm[key]
+            })
+
+            var isBreak = false
+            this.subMessage.forEach(function(val){
+                if(root.mainForm[val.key] === '是') {
+                    val.children.forEach(function(sVal){
+                        if(root.mainForm[sVal] === '') {
+                            root.$toast(val.msg[ sVal ]);
+                            isBreak = true
+                        }
+                    })
+                }
+            })
+
+            if(isBreak) {
+                return
+            }
+
+            if(this.mainForm.isGood === '否') {
+                if(this.mainForm.whatSitua === '') {
+                    root.$toast('请输入身体状况');
+                    return
+                }
+            }
+
+
+            rs.do = 'ajax';
+            var toast = this.$toast.loading({
+                forbidClick: true
+            });
+            // 提交代码
+            $.ajax({
+                url: "",
+                type: "post",
+                data: rs,
+                dataType:"json",
+                beforeSend: function (request) {         
+                    request.setRequestHeader("timestamp", new Date().getTime());
+                },
+                success(res){
+                    toast.clear();
+                    root.$toast(res.msg);
+                    if ( res.code == 0 )
+                    {
+                        setTimeout((function(){ window.location.href="?act=healok"; }),2000)
+                    }
+                },
+                error(err){
+                    toast.clear();
+                    root.$toast('网络连接失败');
+                }
+            });
+     
+        }
+
+      }
+      /*,mounted(){
+        var root = this
+        AMap.plugin('AMap.Geolocation', function() {
+          var geolocation = new AMap.Geolocation({
+            // 是否使用高精度定位，默认：true
+            enableHighAccuracy: true,
+            // 设置定位超时时间，默认：无穷大
+            timeout: 10000,
+            // 定位按钮的停靠位置的偏移量，默认：Pixel(10, 20)
+            buttonOffset: new AMap.Pixel(10, 20),
+            //  定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+            zoomToAccuracy: true,     
+            //  定位按钮的排放位置,  RB表示右下
+            buttonPosition: 'RB'
+          })
+
+          geolocation.getCurrentPosition()
+          AMap.event.addListener(geolocation, 'complete', onComplete)
+          AMap.event.addListener(geolocation, 'error', onError)
+
+          function onComplete (data) {
+            // data是具体的定位信息
+            if(data.addressComponent) {
+                var province = data.addressComponent.province
+                var city = data.addressComponent.city
+                var district = data.addressComponent.district
+
+                // 设置
+                root.mainForm.reportAddress = province + '-' + city + '-' + district
+
+                var provinceCode = getCodeFormAreaName(province, 0)
+                var cityCode = getCodeFormAreaName(city, 1)
+                var districtCode = getCodeFormAreaName(district, 2)
+
+                // 设置当前位置
+                root.postData.defaultArea = (districtCode || cityCode || provinceCode) + ''
+
+                rs.regProvince = parseInt(provinceCode)
+                rs.regCity = parseInt(cityCode)
+                rs.regArea = parseInt(districtCode)
+
+                console.log(rs, root.postData.defaultArea, '<=====default 11111')
+
+
+            }
+            console.log(data, '<=====data')
+          }
+
+          function onError (data) {
+            // 定位出错
+            console.log(data, '<error=====data')
+          }
+        })
+      }*/
+    });
+
+    /*function getCodeFormAreaName(name, type){
+        var indexKey = {
+            0: 'province_list',
+            1: 'city_list',
+            2: 'county_list'
+        }
+        var rangeArray = window._vant_area[ indexKey[type] ]
+        for(var j in rangeArray) {
+            if(rangeArray[j] == name) {
+                return j
+            }
+        }
+        return ''
+    }*/
+    
+    function getMakeSureValueReverse(code){
+        return code == '是' ? 1 : 0
+    }
+    function getMakeSureValue(code){
+        return code == 0 ? '否' : '是'
+    }
+    function rangeCode(code, type){
+        var indexKey = {
+            0: 'province_list',
+            1: 'city_list',
+            2: 'county_list'
+        }
+        var rangeArray = window._vant_area[ indexKey[type] ]
+        for(var j in rangeArray) {
+            if(j == code) {
+                return rangeArray[j]
+            }
+        }
+        return ''
+    }
+    function getNameFromCode(code0, code1, code2) {
+        var ary = [ rangeCode(code0, 0),rangeCode(code1, 1),rangeCode(code2, 2) ] ;
+        var str = '' ;
+        if( !ary[1] )
+        {
+            return '' ;
+        }
+        for (var n in ary)
+        {
+            str += ary[n] ? ((n==0)? '':'-')+ary[n] : '' ;
+        }
+        return  str ;
+
+        // var province = rangeCode(code0, 0);
+        // var city = rangeCode(code1, 1);
+        // var county = rangeCode(code2, 2);
+        // return (province && city && county) ? (province + '-' + city + '-' + county) : ''
+    }
+    $().ready(function(){
+ 
+        //healAjax
+        //init
+        // if ( window.healAjax == 1 )
+        // {
+        // }
+        setTimeout((function(){init();}),1000);
+    });
+
+    function init()
+    {
+        $.ajax({
+            url: "",
+            type: "post",
+            data:{"do":"init"},
+            dataType:"json",
+            beforeSend: function (request) {         
+                request.setRequestHeader("timestamp", new Date().getTime());
+            },
+            success(res){
+                if ( res.code !== 0 )
+                {
+                    return false ;
+                }
+                var res = res.data ;
+
+    window.rs = {
+        regYmd : dayjs().format('YYYY-MM-DD') ,         
+        regProvince : res.regProvince ,
+        regCity : res.regCity ,
+        regArea : res.regArea ,
+
+        isCunDiag:res.isCunDiag,
+        isToge:res.isToge,
+
+        cunAddr:res.cunAddr,
+        togeAddr:res.togeAddr,
+
+        isGoHb : res.isGoHb ,
+        goCity : res.goCity ,
+        goYmd : res.goYmd ,
+        isTouch : res.isTouch ,
+        touchProvince : res.touchProvince ,
+        touchCity : res.touchCity ,
+        touchArea : res.touchArea ,
+        touchAddr : res.touchAddr ,
+        touchYmd : res.touchYmd ,
+        isObs : res.isObs ,
+        isDiag : res.isDiag ,
+        diagYmd : res.diagYmd ,
+        diagHospital : res.diagHospital ,
+        CureYmd : res.CureYmd ,
+        isGood : res.isGood ,
+        whatSitua : res.whatSitua ,
+    }; 
+v.mainForm = {
+    regYmd: dayjs().format('YYYY-MM-DD'), //上报时间
+    reportAddress: getNameFromCode(res.regProvince,res.regCity,res.regArea),
+
+    isCunDiag:getMakeSureValue(res.isCunDiag),
+    isToge:getMakeSureValue(res.isToge),
+    // cunWhere:getNameFromCode(res.cunProvince,res.cunCity,res.cunArea),
+    cunAddr:res.cunAddr,
+    togeAddr:res.togeAddr,
+
+    goWhere: getNameFromCode(420000, res.goCity, 0),
+    goYmd: res.goYmd?res.goYmd:"",
+    isGoHb: getMakeSureValue(res.isGoHb),
+    isTouch: getMakeSureValue(res.isTouch),
+    touchWhere: getNameFromCode(res.touchProvince, res.touchCity, res.touchArea),
+    touchAddr: res.touchAddr,
+    touchYmd: res.touchYmd?res.touchYmd:"",
+    isObs: getMakeSureValue(res.isObs),
+    isDiag: getMakeSureValue(res.isDiag),
+    diagYmd: res.diagYmd?res.diagYmd:"",
+    diagHospital: res.diagHospital,
+    CureYmd: res.CureYmd?res.CureYmd:"",
+    isGood: getMakeSureValue(res.isGood),
+    whatSitua: res.whatSitua
+} ;
+            },
+            error(err){
+            }
+        });        
+    }
+
+</script>
+
+<script type="text/javascript" src="./新型冠状病毒肺炎个人健康情况填报系统_files/z_stat.php"></script>        
+
+<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1255523150'%3E%3C/span%3E%3Cscript src='https://w.cnzz.com/c.php%3Fid%3D1255523150' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1255523150"></span><script src="./新型冠状病毒肺炎个人健康情况填报系统_files/c.php" type="text/javascript"></script>
+
+    
+<div id="fatkun-drop-panel">
+        <a id="fatkun-drop-panel-close-btn">×</a>
+            <div id="fatkun-drop-panel-inner">
+                <div class="fatkun-content">
+                    <svg class="fatkun-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5892"><path d="M494.933333 782.933333c2.133333 2.133333 4.266667 4.266667 8.533334 6.4h8.533333c6.4 0 10.666667-2.133333 14.933333-6.4l2.133334-2.133333 275.2-275.2c8.533333-8.533333 8.533333-21.333333 0-29.866667-8.533333-8.533333-21.333333-8.533333-29.866667 0L533.333333 716.8V128c0-12.8-8.533333-21.333333-21.333333-21.333333s-21.333333 8.533333-21.333333 21.333333v588.8L249.6 475.733333c-8.533333-8.533333-21.333333-8.533333-29.866667 0-8.533333 8.533333-8.533333 21.333333 0 29.866667l275.2 277.333333zM853.333333 874.666667H172.8c-12.8 0-21.333333 8.533333-21.333333 21.333333s8.533333 21.333333 21.333333 21.333333H853.333333c12.8 0 21.333333-8.533333 21.333334-21.333333s-10.666667-21.333333-21.333334-21.333333z" p-id="5893"></path></svg>
+                    <div class="fatkun-title">拖拽到此处</div>
+                    <div class="fatkun-desc">图片将完成下载</div>
+                </div>
+            </div>
+    </div></body></html>
